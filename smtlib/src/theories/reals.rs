@@ -100,4 +100,4 @@ impl std::ops::Neg for Real {
 impl_op!(Real, f64, Add, add, "+", AddAssign, add_assign, +);
 impl_op!(Real, f64, Sub, sub, "-", SubAssign, sub_assign, -);
 impl_op!(Real, f64, Mul, mul, "*", MulAssign, mul_assign, *);
-impl_op!(Real, f64, Div, div, "div", DivAssign, div_assign, /);
+impl_op!(Real, f64, Div, div, "/", DivAssign, div_assign, /);
